@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="static/main.js" defer></script>
+    <title>Калькулятор</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="ul-menu">
+                <li class="menu main-page">
+                    <a href="index.php">
+                        Моя страница
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="index.php">
+                        Главная
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="table.php">
+                        Определения
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="calculations.html">
+                        Расчеты
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="form.php">
+                        Оставить заявку
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="authorization.php">
+                        Вход
+                    </a>
+                </li>
+    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="main_h1">Калькулятор</h1>
+        </section>
+        <div class="calc-container">
+            <div class="screen">
+                <span id="results"></span>
+            </div>
+            <div class="buttons">
+                <div class="digits" id="keys">
+                    <button class="key digit">7</button>
+                    <button class="key digit">8</button>
+                    <button class="key digit">9</button>
+                    <button class="key digit">4</button>
+                    <button class="key digit">5</button>
+                    <button class="key digit">6</button>
+                    <button class="key digit">1</button>
+                    <button class="key digit">2</button>
+                    <button class="key digit">3</button>
+                    <button class="key digit">0</button>
+                    <button class="key digit">.</button>
+                    <button class="key" style="visibility: hidden;"></button>
+                </div>
+                <div class="other" id="others">
+                    <button class="key operation">+</button>
+                    <button class="key operation">-</button>
+                    <button class="key operation">*</button>
+                    <button class="key operation">/</button>
+                    <button class="key bracket">(</button>
+                    <button class="key bracket">)</button>
+                    <button class="key result" id="result_button">=</button>
+                    <button class="key clear" id="clear_button">C</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                Почта: e.v.verstova@mail.ru<br>
+                Контактный телефон: +7(929)659-32-57<br>
+                © Верстова Елена, 2023<br>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
